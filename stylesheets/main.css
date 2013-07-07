@@ -24,24 +24,29 @@ h1, h2, a {
 }
 
 /* line 37, ../sass/main.scss */
+.borderTop {
+  border-top: 5px solid #656565;
+  padding-top: 15px;
+}
+
+/* line 42, ../sass/main.scss */
 h2 {
   color: #999999;
-  margin: 40px auto;
   font-size: 8em;
   font-weight: 100;
 }
 
-/* line 44, ../sass/main.scss */
+/* line 49, ../sass/main.scss */
 .textCenter {
   text-align: center !important;
 }
 
-/* line 48, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 .menuBg {
   background: #fff;
 }
 
-/* line 52, ../sass/main.scss */
+/* line 57, ../sass/main.scss */
 article.briefDesc {
   *zoom: 1;
 }
@@ -54,13 +59,13 @@ article.briefDesc:before, article.briefDesc:after {
 article.briefDesc:after {
   clear: both;
 }
-/* line 54, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 article.briefDesc p {
   font-size: 1.3em;
   text-align: left;
 }
 
-/* line 59, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 .imageCircle {
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -77,7 +82,7 @@ article.briefDesc p {
   margin: 0 auto;
 }
 
-/* line 71, ../sass/main.scss */
+/* line 76, ../sass/main.scss */
 .strategy {
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -92,37 +97,114 @@ article.briefDesc p {
   margin: 0 auto;
 }
 
-/* line 81, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
+.project {
+  width: 300px;
+  height: 300px;
+  background: url("../images/projects/image1sketch.png") no-repeat top left;
+  border: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  -moz-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+/* line 92, ../sass/main.scss */
+.project:hover {
+  background: url("../images/projects/image1.png") no-repeat top left;
+  border: solid #999 3px;
+  cursor: pointer;
+}
+
+/* line 103, ../sass/main.scss */
+.projectthumb1, .projectthumb2, .projectthumb3, .projectthumb4, .projectthumb5, .projectthumb6 {
+  height: 130px;
+  background: url("../images/projects/project1/thumbs/thumbs1.png") no-repeat top left;
+  background-size: 130px;
+  -webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+  -moz-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+/* line 108, ../sass/main.scss */
+.projectthumb1:hover, .projectthumb2:hover, .projectthumb3:hover, .projectthumb4:hover, .projectthumb5:hover, .projectthumb6:hover {
+  background: url("../images/projects/project1/thumbs/image1.png") no-repeat top left;
+  background-size: 130px;
+  cursor: pointer;
+}
+
+/* line 115, ../sass/main.scss */
+.projectthumb2 {
+  background: url("../images/projects/project1/thumbs/thumbs2.png") no-repeat top left;
+  background-size: 130px;
+}
+/* line 118, ../sass/main.scss */
+.projectthumb2:hover {
+  background: url("../images/projects/project1/thumbs/image2.png") no-repeat top left;
+  background-size: 130px;
+}
+
+/* line 124, ../sass/main.scss */
+.projectthumb3 {
+  background: url("../images/projects/project1/thumbs/thumbs3.png") no-repeat top left;
+  background-size: 130px;
+}
+/* line 127, ../sass/main.scss */
+.projectthumb3:hover {
+  background: url("../images/projects/project1/thumbs/image3.png") no-repeat top left;
+  background-size: 130px;
+}
+
+/* line 133, ../sass/main.scss */
+.projectthumb4 {
+  background: url("../images/projects/project1/thumbs/thumbs4.png") no-repeat top left;
+  background-size: 130px;
+}
+/* line 136, ../sass/main.scss */
+.projectthumb4:hover {
+  background: url("../images/projects/project1/thumbs/image4.png") no-repeat top left;
+  background-size: 130px;
+}
+
+/* line 142, ../sass/main.scss */
+.projectthumb5 {
+  background: url("../images/projects/project1/thumbs/thumbs5.png") no-repeat top left;
+  background-size: 130px;
+}
+/* line 145, ../sass/main.scss */
+.projectthumb5:hover {
+  background: url("../images/projects/project1/thumbs/image5.png") no-repeat top left;
+  background-size: 130px;
+}
+
+/* line 153, ../sass/main.scss */
 .red {
   border: solid #e53238 3px;
 }
 
-/* line 82, ../sass/main.scss */
+/* line 154, ../sass/main.scss */
 .yellow {
   border: solid #f5af34 3px;
 }
 
-/* line 83, ../sass/main.scss */
+/* line 155, ../sass/main.scss */
 .blue {
   border: solid #0064d1 3px;
 }
 
-/* line 84, ../sass/main.scss */
+/* line 156, ../sass/main.scss */
 .green {
   border: solid #85b838 3px;
 }
 
-/* line 87, ../sass/main.scss */
+/* line 159, ../sass/main.scss */
 .icon-ok-circled-1 {
   color: #85b838;
 }
 
-/* line 90, ../sass/main.scss */
+/* line 162, ../sass/main.scss */
 .strategyContainer {
   width: 100%;
   *zoom: 1;
   background: url("../images/grid.png") repeat;
-  padding-bottom: 21px;
+  padding-bottom: 11px;
 }
 /* line 18, ../bourbon/addons/_clearfix.scss */
 .strategyContainer:before, .strategyContainer:after {
@@ -134,7 +216,7 @@ article.briefDesc p {
   clear: both;
 }
 
-/* line 97, ../sass/main.scss */
+/* line 169, ../sass/main.scss */
 .splitStrategy {
   width: 100%;
   height: 122px;
@@ -143,7 +225,7 @@ article.briefDesc p {
   opacity: 0.8;
 }
 
-/* line 104, ../sass/main.scss */
+/* line 176, ../sass/main.scss */
 .splitStrategyb {
   width: 100%;
   height: 122px;
@@ -151,12 +233,12 @@ article.briefDesc p {
   opacity: 0.8;
 }
 
-/* line 111, ../sass/main.scss */
+/* line 183, ../sass/main.scss */
 .MarginTop {
   margin-top: 40px !important;
 }
 
-/* line 115, ../sass/main.scss */
+/* line 187, ../sass/main.scss */
 .FooterContainer {
   background: #999999;
   *zoom: 1;
@@ -170,21 +252,21 @@ article.briefDesc p {
 .FooterContainer:after {
   clear: both;
 }
-/* line 118, ../sass/main.scss */
+/* line 190, ../sass/main.scss */
 .FooterContainer footer {
   margin-top: 25px;
 }
-/* line 121, ../sass/main.scss */
+/* line 193, ../sass/main.scss */
 .FooterContainer footer h1, .FooterContainer footer a, .FooterContainer footer p {
   color: #fff;
 }
-/* line 124, ../sass/main.scss */
+/* line 196, ../sass/main.scss */
 .FooterContainer footer div {
   margin: 0 auto;
   color: #fff;
   font-size: 0.8em;
 }
-/* line 128, ../sass/main.scss */
+/* line 200, ../sass/main.scss */
 .FooterContainer footer div a {
   text-decoration: none;
   font-size: 0.8em;
@@ -192,28 +274,28 @@ article.briefDesc p {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 132, ../sass/main.scss */
+/* line 204, ../sass/main.scss */
 .FooterContainer footer div a:hover {
   color: #c8c8c8;
 }
-/* line 137, ../sass/main.scss */
+/* line 209, ../sass/main.scss */
 .FooterContainer footer .Socials {
   margin: 25px auto;
 }
-/* line 139, ../sass/main.scss */
+/* line 211, ../sass/main.scss */
 .FooterContainer footer .Socials a {
   font-size: 4em;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 143, ../sass/main.scss */
+/* line 215, ../sass/main.scss */
 .FooterContainer footer .Socials a:hover {
   color: #c8c8c8;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 157, ../sass/main.scss */
+  /* line 229, ../sass/main.scss */
   .top-bar-section {
     *zoom: 1;
     margin: 0 auto;
@@ -229,13 +311,13 @@ article.briefDesc p {
     clear: both;
   }
 
-  /* line 163, ../sass/main.scss */
+  /* line 235, ../sass/main.scss */
   .imageCircle {
     height: 400px;
     width: 400px;
   }
 }
-/* line 171, ../sass/main.scss */
+/* line 243, ../sass/main.scss */
 .top-bar-section ul li > a {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;

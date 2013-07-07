@@ -34,9 +34,14 @@ h1, h2, a {
 
 }
 
+.borderTop {
+    border-top: 5px solid $gray;
+    padding-top: 15px;
+}
+
 h2 {
     color: $grayLighter;
-    margin: 40px auto;
+
     font-size: 8em;
     font-weight: 100;
 }
@@ -78,6 +83,73 @@ article.briefDesc {
         margin: 0 auto;
     }
 
+.project {
+    width: 300px;
+    height: 300px;
+    background: url("../images/projects/image1sketch.png") no-repeat top left;
+    border: none;
+    @include transition (all 0.3s $ease-out-quint);
+    &:hover {
+        background: url("../images/projects/image1.png") no-repeat top left;
+        border: solid #999 3px;
+        cursor: pointer;
+    }
+}
+
+
+// Project Page
+
+
+.projectthumb1, .projectthumb2, .projectthumb3, .projectthumb4, .projectthumb5, .projectthumb6 {
+    height: 130px;
+    background: url("../images/projects/project1/thumbs/thumbs1.png") no-repeat top left;
+    background-size: 130px;
+    @include transition (all 2s $ease-out-quint);
+    &:hover {
+        background: url("../images/projects/project1/thumbs/image1.png") no-repeat top left;
+        background-size: 130px;
+        cursor: pointer;
+    }
+}
+
+.projectthumb2 {
+    background: url("../images/projects/project1/thumbs/thumbs2.png") no-repeat top left;
+        background-size: 130px;
+    &:hover {
+        background: url("../images/projects/project1/thumbs/image2.png") no-repeat top left;
+        background-size: 130px;
+    }
+}
+
+.projectthumb3 {
+    background: url("../images/projects/project1/thumbs/thumbs3.png") no-repeat top left;
+        background-size: 130px;
+    &:hover {
+        background: url("../images/projects/project1/thumbs/image3.png") no-repeat top left;
+        background-size: 130px;
+    }
+}
+
+.projectthumb4 {
+    background: url("../images/projects/project1/thumbs/thumbs4.png") no-repeat top left;
+        background-size: 130px;
+    &:hover {
+        background: url("../images/projects/project1/thumbs/image4.png") no-repeat top left;
+        background-size: 130px;
+    }
+}
+
+.projectthumb5 {
+    background: url("../images/projects/project1/thumbs/thumbs5.png") no-repeat top left;
+        background-size: 130px;
+    &:hover {
+        background: url("../images/projects/project1/thumbs/image5.png") no-repeat top left;
+        background-size: 130px;
+    }
+}
+
+
+
     .red {border: solid #e53238 3px;}
     .yellow {border: solid #f5af34 3px;}
     .blue {border: solid #0064d1 3px;}
@@ -91,7 +163,7 @@ article.briefDesc {
     width: 100%;
     @include clearfix;
     background: url("../images/grid.png") repeat;
-    padding-bottom: 21px;
+    padding-bottom: 11px;
 }
 
 .splitStrategy {
