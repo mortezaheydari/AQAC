@@ -99,370 +99,68 @@ article.briefDesc {
 
 // Project Page
 
-
-// project 1
-.projectthumb1, .projectthumb2, .projectthumb3, .projectthumb4, .projectthumb5, .projectthumb6 {
-    height: 130px;
-    background: url("../images/projects/project1/thumbs/thumbs1.png") no-repeat top left;
-    background-size: 130px;
-    @include transition (all 2s $ease-out-quint);
-    &:hover {
-        background: url("../images/projects/project1/thumbs/image1.png") no-repeat top left;
+@for $i from 1 through 6 {
+    .project#{$i}thumb1, .project#{$i}thumb2, .project#{$i}thumb3, .project#{$i}thumb4, .project#{$i}thumb5, .project#{$i}thumb6 {
+        height: 130px;
+        background: url("../images/projects/project#{$i}/thumbs/thumbs1.png") no-repeat top left;
         background-size: 130px;
-        cursor: pointer;
+        @include transition (all 2s $ease-out-quint);
+        &:hover {
+            background: url("../images/projects/project#{$i}/thumbs/image1.png") no-repeat top left;
+            background-size: 130px;
+            cursor: pointer;
+        }
+    }
+
+    .project#{$i}thumb2 {
+        background: url("../images/projects/project#{$i}/thumbs/thumbs2.png") no-repeat top left;
+            background-size: 130px;
+        &:hover {
+            background: url("../images/projects/project#{$i}/thumbs/image2.png") no-repeat top left;
+            background-size: 130px;
+        }
+    }
+
+    .project#{$i}thumb3 {
+        background: url("../images/projects/project#{$i}/thumbs/thumbs3.png") no-repeat top left;
+            background-size: 130px;
+        &:hover {
+            background: url("../images/projects/project#{$i}/thumbs/image3.png") no-repeat top left;
+            background-size: 130px;
+        }
+    }
+
+    .project#{$i}thumb4 {
+        background: url("../images/projects/project#{$i}/thumbs/thumbs4.png") no-repeat top left;
+            background-size: 130px;
+        &:hover {
+            background: url("../images/projects/project#{$i}/thumbs/image4.png") no-repeat top left;
+            background-size: 130px;
+        }
+    }
+
+    .project#{$i}thumb5 {
+        background: url("../images/projects/project#{$i}/thumbs/thumbs5.png") no-repeat top left;
+            background-size: 130px;
+        &:hover {
+            background: url("../images/projects/project#{$i}/thumbs/image5.png") no-repeat top left;
+            background-size: 130px;
+        }
+    }
+
+    .project#{$i}thumb6 {
+        background: url("../images/projects/project#{$i}/thumbs/thumbs6.png") no-repeat top left;
+            background-size: 130px;
+        &:hover {
+            background: url("../images/projects/project#{$i}/thumbs/image6.png") no-repeat top left;
+            background-size: 130px;
+        }
     }
 }
 
-.projectthumb2 {
-    background: url("../images/projects/project1/thumbs/thumbs2.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project1/thumbs/image2.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
 
-.projectthumb3 {
-    background: url("../images/projects/project1/thumbs/thumbs3.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project1/thumbs/image3.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.projectthumb4 {
-    background: url("../images/projects/project1/thumbs/thumbs4.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project1/thumbs/image4.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.projectthumb5 {
-    background: url("../images/projects/project1/thumbs/thumbs5.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project1/thumbs/image5.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
 
 // project 1 end
-
-
-
-// project 2
-.project2thumb1, .project2thumb2, .project2thumb3, .project2thumb4, .project2thumb5, .project2thumb6 {
-    height: 130px;
-    background: url("../images/projects/project2/thumbs/thumbs1.png") no-repeat top left;
-    background-size: 130px;
-    @include transition (all 2s $ease-out-quint);
-    &:hover {
-        background: url("../images/projects/project2/thumbs/image1.png") no-repeat top left;
-        background-size: 130px;
-        cursor: pointer;
-    }
-}
-
-.project2thumb2 {
-    background: url("../images/projects/project2/thumbs/thumbs2.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project2/thumbs/image2.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project2thumb3 {
-    background: url("../images/projects/project2/thumbs/thumbs3.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project2/thumbs/image3.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project2thumb4 {
-    background: url("../images/projects/project2/thumbs/thumbs4.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project2/thumbs/image4.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project2thumb5 {
-    background: url("../images/projects/project2/thumbs/thumbs5.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project2/thumbs/image5.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project2thumb6 {
-    background: url("../images/projects/project2/thumbs/thumbs6.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project2/thumbs/image6.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-// project 2 end
-
-
-
-// project 3
-.project3thumb1, .project3thumb2, .project3thumb3, .project3thumb4, .project3thumb5, .project3thumb6 {
-    height: 130px;
-    background: url("../images/projects/project3/thumbs/thumbs1.png") no-repeat top left;
-    background-size: 130px;
-    @include transition (all 2s $ease-out-quint);
-    &:hover {
-        background: url("../images/projects/project3/thumbs/image1.png") no-repeat top left;
-        background-size: 130px;
-        cursor: pointer;
-    }
-}
-
-.project3thumb2 {
-    background: url("../images/projects/project3/thumbs/thumbs2.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project3/thumbs/image2.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project3thumb3 {
-    background: url("../images/projects/project3/thumbs/thumbs3.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project3/thumbs/image3.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project3thumb4 {
-    background: url("../images/projects/project3/thumbs/thumbs4.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project3/thumbs/image4.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project3thumb5 {
-    background: url("../images/projects/project3/thumbs/thumbs5.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project3/thumbs/image5.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project3thumb6 {
-    background: url("../images/projects/project3/thumbs/thumbs6.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project3/thumbs/image6.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-// project 3 end
-
-
-// project 4
-
-.project4thumb1, .project4thumb2, .project4thumb3, .project4thumb4, .project4thumb5, .project4thumb6 {
-    height: 130px;
-    background: url("../images/projects/project4/thumbs/thumbs1.png") no-repeat top left;
-    background-size: 130px;
-    @include transition (all 2s $ease-out-quint);
-    &:hover {
-        background: url("../images/projects/project4/thumbs/image1.png") no-repeat top left;
-        background-size: 130px;
-        cursor: pointer;
-    }
-}
-
-.project4thumb2 {
-    background: url("../images/projects/project4/thumbs/thumbs2.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project4/thumbs/image2.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project4thumb3 {
-    background: url("../images/projects/project4/thumbs/thumbs3.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project4/thumbs/image3.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project4thumb4 {
-    background: url("../images/projects/project4/thumbs/thumbs4.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project4/thumbs/image4.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project4thumb5 {
-    background: url("../images/projects/project4/thumbs/thumbs5.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project4/thumbs/image5.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project4thumb6 {
-    background: url("../images/projects/project4/thumbs/thumbs6.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project4/thumbs/image6.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-// project 4 end
-
-
-// project 5
-
-.project5thumb1, .project5thumb2, .project5thumb3, .project5thumb4, .project5thumb5, .project5thumb6 {
-    height: 130px;
-    background: url("../images/projects/project5/thumbs/thumbs1.png") no-repeat top left;
-    background-size: 130px;
-    @include transition (all 2s $ease-out-quint);
-    &:hover {
-        background: url("../images/projects/project5/thumbs/image1.png") no-repeat top left;
-        background-size: 130px;
-        cursor: pointer;
-    }
-}
-
-.project5thumb2 {
-    background: url("../images/projects/project5/thumbs/thumbs2.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project5/thumbs/image2.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project5thumb3 {
-    background: url("../images/projects/project5/thumbs/thumbs3.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project5/thumbs/image3.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project5thumb4 {
-    background: url("../images/projects/project5/thumbs/thumbs4.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project5/thumbs/image4.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project5thumb5 {
-    background: url("../images/projects/project5/thumbs/thumbs5.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project5/thumbs/image5.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project5thumb6 {
-    background: url("../images/projects/project5/thumbs/thumbs6.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project5/thumbs/image6.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-// project 5 end
-
-
-// project 6
-
-.project6thumb1, .project6thumb2, .project6thumb3, .project6thumb4, .project6thumb5, .project6thumb6 {
-    height: 130px;
-    background: url("../images/projects/project6/thumbs/thumbs1.png") no-repeat top left;
-    background-size: 130px;
-    @include transition (all 2s $ease-out-quint);
-    &:hover {
-        background: url("../images/projects/project6/thumbs/image1.png") no-repeat top left;
-        background-size: 130px;
-        cursor: pointer;
-    }
-}
-
-.project6thumb2 {
-    background: url("../images/projects/project6/thumbs/thumbs2.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project6/thumbs/image2.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project6thumb3 {
-    background: url("../images/projects/project6/thumbs/thumbs3.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project6/thumbs/image3.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project6thumb4 {
-    background: url("../images/projects/project6/thumbs/thumbs4.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project6/thumbs/image4.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project6thumb5 {
-    background: url("../images/projects/project6/thumbs/thumbs5.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project6/thumbs/image5.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-.project6thumb6 {
-    background: url("../images/projects/project6/thumbs/thumbs6.png") no-repeat top left;
-        background-size: 130px;
-    &:hover {
-        background: url("../images/projects/project6/thumbs/image6.png") no-repeat top left;
-        background-size: 130px;
-    }
-}
-
-// project 6 end
-
-
-// Projects page end
 
 
     .red {border: solid #e53238 3px;}
