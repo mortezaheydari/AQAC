@@ -83,16 +83,18 @@ article.briefDesc {
         margin: 0 auto;
     }
 
-.project {
-    width: 300px;
-    height: 300px;
-    background: url("../images/projects/image1sketch.png") no-repeat top left;
-    border: none;
-    @include transition (all 0.3s $ease-out-quint);
-    &:hover {
-        background: url("../images/projects/image1.png") no-repeat top left;
-        border: solid #999 3px;
-        cursor: pointer;
+@for $i from 1 through 6 {
+    .project#{$i} {
+        width: 300px;
+        height: 300px;
+        background: url("../images/projects/image#{$i}sketch.png") no-repeat top left;
+        border: none;
+        @include transition (all 0.3s $ease-out-quint);
+        &:hover {
+            background: url("../images/projects/image#{$i}.png") no-repeat top left;
+            border: solid #999 3px;
+            cursor: pointer;
+        }
     }
 }
 
