@@ -222,3 +222,6 @@ article.briefDesc {
   .phonecontact .icon-phone {
     font-size: 8em;
     color: #656565; }
+
+.imageHolderLink {
+  margin-bottom: 20px; }

@@ -2,7 +2,13 @@ $(document).ready(function() {
     $("a.orbit-prev").hide();
     $("a.orbit-next").hide();
     $(".orbit-caption").hide();
-
+    $(".imgHolder").hide();
+    $(".imageHolderLink").click(function(event) {
+        event.preventDefault();
+        $(".imgHolder").show();
+        var src = $(this).attr('data-src');
+        $(".imgHolder div img").attr('src', src);
+    });
     // $(document).foundation('orbit', {
     //   timer_speed: 10000,
     //   pause_on_hover: true,
