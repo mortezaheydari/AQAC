@@ -244,4 +244,12 @@ article.briefDesc {
     @include transition (all 0.3s ease-in-out);
 }
 
+.phonecontact {
+    text-align: center;
+    .icon-phone {
+        font-size: 8em;
+        color: $gray;
+    }
+}
+
 // fixes end
