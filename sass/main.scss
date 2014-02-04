@@ -104,7 +104,7 @@ article.briefDesc {
 // Project Page
 
 @for $i from 1 through 7 {
-    .project#{$i}thumb1, .project#{$i}thumb2, .project#{$i}thumb3, .project#{$i}thumb4, .project#{$i}thumb5, .project#{$i}thumb6 {
+    .project#{$i}thumb1, .project#{$i}thumb2, .project#{$i}thumb3, .project#{$i}thumb4, .project#{$i}thumb5, .project#{$i}thumb6, .project#{$i}thumb7, .project#{$i}thumb8 {
         height: 130px;
         background: url("../images/projects/project#{$i}/thumbs/thumbs1.png") no-repeat top left;
         background-size: 130px;
@@ -160,9 +160,29 @@ article.briefDesc {
             background-size: 130px;
         }
     }
+
+    .project#{$i}thumb7 {
+        background: url("../images/projects/project#{$i}/thumbs/thumbs7.png") no-repeat top left;
+            background-size: 130px;
+        &:hover {
+            background: url("../images/projects/project#{$i}/thumbs/image7.png") no-repeat top left;
+            background-size: 130px;
+        }
+    }
+
+    .project#{$i}thumb8 {
+        background: url("../images/projects/project#{$i}/thumbs/thumbs8.png") no-repeat top left;
+            background-size: 130px;
+        &:hover {
+            background: url("../images/projects/project#{$i}/thumbs/image8.png") no-repeat top left;
+            background-size: 130px;
+        }
+    }
 }
 
-
+[class*="column"] + [class*="column"]:last-child {
+float: left;
+}
 
 // project 1 end
 
