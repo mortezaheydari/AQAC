@@ -83,7 +83,9 @@ article.briefDesc {
         margin: 0 auto;
     }
 
-@for $i from 1 through 6 {
+// loops
+
+@for $i from 1 through 7 {
     .project#{$i} {
         width: 300px;
         height: 300px;

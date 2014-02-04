@@ -147,6 +147,19 @@ article.briefDesc {
     border: solid #999 3px;
     cursor: pointer; }
 
+.project7 {
+  width: 300px;
+  height: 300px;
+  background: url("../images/projects/image7sketch.png") no-repeat top left;
+  border: none;
+  -webkit-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  -moz-transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1); }
+  .project7:hover {
+    background: url("../images/projects/image7.png") no-repeat top left;
+    border: solid #999 3px;
+    cursor: pointer; }
+
 .project1thumb1, .project1thumb2, .project1thumb3, .project1thumb4, .project1thumb5, .project1thumb6 {
   height: 130px;
   background: url("../images/projects/project1/thumbs/thumbs1.png") no-repeat top left;
