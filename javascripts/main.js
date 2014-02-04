@@ -9,6 +9,7 @@ $(document).ready(function() {
         var src = $(this).attr('data-src');
         $(".imgHolder div img").attr('src', src);
     });
+
     // $(document).foundation('orbit', {
     //   timer_speed: 10000,
     //   pause_on_hover: true,

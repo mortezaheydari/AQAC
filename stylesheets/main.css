@@ -429,6 +429,53 @@ article.briefDesc {
     background: url("../images/projects/project6/thumbs/image6.png") no-repeat top left;
     background-size: 130px; }
 
+.project7thumb1, .project7thumb2, .project7thumb3, .project7thumb4, .project7thumb5, .project7thumb6 {
+  height: 130px;
+  background: url("../images/projects/project7/thumbs/thumbs1.png") no-repeat top left;
+  background-size: 130px;
+  -webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+  -moz-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 2s cubic-bezier(0.23, 1, 0.32, 1); }
+  .project7thumb1:hover, .project7thumb2:hover, .project7thumb3:hover, .project7thumb4:hover, .project7thumb5:hover, .project7thumb6:hover {
+    background: url("../images/projects/project7/thumbs/image1.png") no-repeat top left;
+    background-size: 130px;
+    cursor: pointer; }
+
+.project7thumb2 {
+  background: url("../images/projects/project7/thumbs/thumbs2.png") no-repeat top left;
+  background-size: 130px; }
+  .project7thumb2:hover {
+    background: url("../images/projects/project7/thumbs/image2.png") no-repeat top left;
+    background-size: 130px; }
+
+.project7thumb3 {
+  background: url("../images/projects/project7/thumbs/thumbs3.png") no-repeat top left;
+  background-size: 130px; }
+  .project7thumb3:hover {
+    background: url("../images/projects/project7/thumbs/image3.png") no-repeat top left;
+    background-size: 130px; }
+
+.project7thumb4 {
+  background: url("../images/projects/project7/thumbs/thumbs4.png") no-repeat top left;
+  background-size: 130px; }
+  .project7thumb4:hover {
+    background: url("../images/projects/project7/thumbs/image4.png") no-repeat top left;
+    background-size: 130px; }
+
+.project7thumb5 {
+  background: url("../images/projects/project7/thumbs/thumbs5.png") no-repeat top left;
+  background-size: 130px; }
+  .project7thumb5:hover {
+    background: url("../images/projects/project7/thumbs/image5.png") no-repeat top left;
+    background-size: 130px; }
+
+.project7thumb6 {
+  background: url("../images/projects/project7/thumbs/thumbs6.png") no-repeat top left;
+  background-size: 130px; }
+  .project7thumb6:hover {
+    background: url("../images/projects/project7/thumbs/image6.png") no-repeat top left;
+    background-size: 130px; }
+
 .red {
   border: solid #e53238 3px; }
 
@@ -535,3 +582,8 @@ article.briefDesc {
 
 h2.H2Header {
   font-size: 4em; }
+
+.preloadImg {
+  position: absolute;
+  top: 0;
+  display: none; }

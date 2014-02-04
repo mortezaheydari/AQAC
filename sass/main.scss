@@ -101,7 +101,7 @@ article.briefDesc {
 
 // Project Page
 
-@for $i from 1 through 6 {
+@for $i from 1 through 7 {
     .project#{$i}thumb1, .project#{$i}thumb2, .project#{$i}thumb3, .project#{$i}thumb4, .project#{$i}thumb5, .project#{$i}thumb6 {
         height: 130px;
         background: url("../images/projects/project#{$i}/thumbs/thumbs1.png") no-repeat top left;
@@ -276,4 +276,10 @@ article.briefDesc {
 
 h2.H2Header {
     font-size: 4em;
+}
+
+.preloadImg {
+    position: absolute;
+    top: 0;
+    display: none;
 }
